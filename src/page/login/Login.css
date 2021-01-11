@@ -1,0 +1,236 @@
+.login{
+    background: rgb(225,54,194);
+    background: linear-gradient(243deg, rgba(225,54,194,1) 0%, rgba(138,76,185,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo1{
+position: absolute;
+top: 0;
+left: 0;
+width: 370px;
+height: 370px;
+}
+
+.logo2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 330px;
+height: 330px;
+}
+
+.logo3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 280px;
+}
+
+.logo4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: 320px;
+}
+
+.loginBox{
+    width: 90vw;
+    height: 90vh;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 2px 3px 4px 4px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    display: flex;
+}
+
+.box1{
+    display: flex;
+    background: linear-gradient(150.53deg, rgba(75, 27, 127, 0.9) 0%, #4B1B7F 100%);
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.box2{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    padding: 3.5% 5%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Play', sans-serif;
+}
+
+.box2 h3{
+    margin-top: 15px;
+    font-size: 18pt;
+    margin-bottom: 30px;
+}
+
+.box2 input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    background-color: #f1f1f1;
+    border: none;
+    padding-bottom: 8px;
+    border-bottom: 3.5px solid linear-gradient(90deg, #4A1B81 0%, #E459CC 100%);
+    
+    
+}
+
+.line1{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.line2{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.btn-login{
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: linear-gradient(270deg, rgba(200, 61, 192, 0.8) 0%, rgba(88, 31, 155, 0.8) 100%);
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-login:hover{
+    background: linear-gradient(270deg, rgba(200, 61, 192, 1) 0%, rgba(88, 31, 155, 1) 100%);
+}
+
+.btn-facebook:hover{
+    background: linear-gradient(270deg, #0099ff 0%, #037bd6 100%);
+
+}
+
+.btn-google:hover{
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.8) 0%, rgba(131, 23, 23, 0.8) 100%);
+}
+
+.logintext{
+    width: 9pt;
+    font-weight: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(133, 133, 133);
+    margin: 25px 0;
+}
+
+.btn-google{
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+    background: linear-gradient(270deg, rgba(255, 0, 0, 1) 0%, rgba(131, 23, 23, 1) 100%);
+    cursor: pointer;
+
+
+}
+
+.btn-facebook{
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    color: #f1f1f1;
+    background: linear-gradient(270deg, #35A4ED 0%, #287AB7 100%);
+    cursor: pointer;
+
+}
+
+.decoration1{
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+    left: 0;
+}
+
+.decoration2{
+    position: absolute;
+    top: 0;
+    height: 70%;
+    right: 0;
+}
+
+.logoLogin{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.logoText{
+    position: absolute;
+    top: 45px;
+    left: 90px;
+}
+
+.bola1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 70px;
+    right: 30%;
+}
+
+.bola2{
+    position: absolute;
+    left: 65px;
+    top: 40%;
+    width: 120px;
+    height: 120px;
+}
+
+.bola3{
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right:50px;
+    position: absolute;
+}
+
+.box1 h3{
+    color: white;
+    font-family: "Play";
+}
+
+.loginsHeader{
+    font-size: 24pt;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+.loginsbody{
+    text-align: left;
+    font-size: 11pt;
+    bottom: 30%;
+    right: 20%;
+    position: absolute;
+    font-weight: normal;
+}
